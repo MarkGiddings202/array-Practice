@@ -13,8 +13,8 @@
     is the "multiple" variable and the program still works correctly.
 */
 
-const multiple = 10;
-const numbers = [10, 11, 12, 13, 14, 15, 16, 17];
+const multiple = 6;
+const numbers = [10, 11, 12, 13, 14, 15];
 
 for (let i = 0; i < numbers.length; i++) {
   const result = multiple * numbers[i];
